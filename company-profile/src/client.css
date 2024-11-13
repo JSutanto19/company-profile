@@ -6,7 +6,7 @@
     flex-direction: column;
     padding: 0px; /* Added padding for better spacing */
     padding-bottom: 20px;
-    background-image: url('../img/prod-bg.jpg');
+    background-image: url('./prod-bg.jpg');
     background-size: cover; /* Make the background image cover the entire div */
     background-position: center; /* Center the background image */
     background-repeat: no-repeat; /* Prevent the background image from repeating */
@@ -36,7 +36,7 @@
     align-items: center;
     flex-direction: column;
     padding: 20px; /* Added padding for better spacing */
-    background-image: url('../img/digit-bg.jpg');
+    background-image: url('./digit-bg.jpg');
     background-size: cover; /* Make the background image cover the entire div */
     background-position: center; /* Center the background image */
     background-repeat: no-repeat; /* Prevent the background image from repeating */
@@ -51,6 +51,7 @@ h1 {
 }
 
 .clients-para {
+    display: none;
     background-color: white;
     border-radius: 20px;
     margin-top: 30px;
@@ -166,12 +167,21 @@ h1 {
     .prod-div{
         flex-direction: column;
         gap: 40px;
+        max-width: fit-content;
+        height: fit-content;
+    }
+
+    .prod-header{
+        display: none;
     }
 
     .service-list{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+    .clients-para {
+        display: block; /* Show only on screens 600px or smaller */
     }
     
 }

@@ -4,7 +4,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 75vh; /* Ensure the hero section takes the full viewport height */
+  overflow: hidden;
+  height: 90vh; /* Ensure the hero section takes the full viewport height */
 }
 
 .hero-text {
@@ -13,7 +14,7 @@
   font-weight: 100;
   line-height: 1.2; /* Adjust line height for better spacing */
   text-align: center;
-  margin-bottom: 20%;
+  margin-bottom: 0%;
 }
 
 .hero-text p {
@@ -35,6 +36,7 @@
   padding: 10px;
   font-size: 36px; /* Adjust size as needed */
   color: #fff; /* Adjust color as needed */
+  margin-bottom: 20px;
 }
 
 .hero-arrow:hover {

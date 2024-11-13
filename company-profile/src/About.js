@@ -1,6 +1,6 @@
 import React from 'react'
-import '../styles/about.css'
-import img1 from '../img/Injection.JPG';
+import './about.css'
+import img1 from './Injection.JPG';
 
 function About() {
   return (

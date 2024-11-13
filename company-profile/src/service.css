@@ -5,11 +5,25 @@
     flex-direction: column;
     align-items: center;
     padding: 20px; /* Added padding for better spacing */
-    background-image: url('../img/service-bg-2.jpg');
+    background-image: url('./service-bg-2.jpg');
     background-size: cover; /* Ensures the image covers the entire container */
     background-position: center; /* Centers the background image */
     background-repeat: no-repeat; /* Prevents the image from repeating */
 }
+
+.prod-header {
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Final box-shadow value */
+    overflow: hidden;
+    width: 1000px;
+    height: 860px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-right: 25px;
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
 
 .h1-style {
     margin-left: 10px;
@@ -67,11 +81,14 @@
         text-align: center;
     }
 
-    .service-para{
-        margin-right: 40px;
-        padding-left: 0px;
-    }
+    .service-para {
+        margin-left: 2px;
+    }    
 
+}
+
+.clients-para{
+    display: none;
 }
 
 .service-card img {

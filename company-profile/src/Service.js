@@ -1,10 +1,10 @@
 import React from 'react'
-import '../styles/service.css'
-import img1 from '../img/Mold_Maker.JPG'
-import img2 from '../img/Injection_Machine.JPG'
-import img3 from '../img/assembly.JPG'
-import img4 from '../img/qc.JPG'
-import img5 from '../img/Painting.JPG'
+import './service.css'
+import img1 from './Mold_Maker.JPG'
+import img2 from './Injection_Machine.JPG'
+import img3 from './assembly.JPG'
+import img4 from './qc.JPG'
+import img5 from './Painting.JPG'
 
 
 function Service() {

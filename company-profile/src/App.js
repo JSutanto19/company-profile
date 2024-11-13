@@ -1,14 +1,14 @@
 import React, { Suspense, lazy } from 'react';
 import './App.css';
-import Navbar from './components/Navbar';
+import Navbar from './Navbar';
 
 // Lazy load the components
-const Home = lazy(() => import('./components/Home'));
-const About = lazy(() => import('./components/About'));
-const Service = lazy(() => import('./components/Service'));
-const Products = lazy(() => import('./components/Products'));
-const Contact = lazy(() => import('./components/Contact'));
-const Digitization = lazy(() => import('./components/Digitization'));
+const Home = lazy(() => import('./Home'));
+const About = lazy(() => import('./About'));
+const Service = lazy(() => import('./Service'));
+const Products = lazy(() => import('./Products'));
+const Contact = lazy(() => import('./Contact'));
+const Digitization = lazy(() => import('./Digitization'));
 
 function App() {
   return (

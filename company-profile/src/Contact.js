@@ -1,8 +1,8 @@
 import React from 'react';
-import reception from '../img/contact-2.png';
-import img2 from '../img/contact-1.jpg';
+import reception from './contact-2.png';
+import img2 from './contact-1.jpg';
 
-import '../styles/Contact.css';
+import './Contact.css';
 import { BiMailSend } from "react-icons/bi";
 import { BiPhone } from "react-icons/bi";
 import { BiCurrentLocation } from "react-icons/bi";

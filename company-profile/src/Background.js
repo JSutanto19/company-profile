@@ -1,6 +1,6 @@
-import "../styles/Background.css";
-import molding from '../img/Molding_comp.jpg';
-import design from '../img/Design_comp.jpg';
+import "./Background.css";
+import molding from './Molding_comp.jpg';
+import design from './Design_comp.jpg';
 
 const Background = ({ heroCount }) => {
   let backgroundImage;
