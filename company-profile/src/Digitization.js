@@ -8,9 +8,9 @@ function Digitization() {
   return (
     <div className='digit-div'>
       <h1 className='h1-style'>Digitization</h1>
-      <h3 className='clients-para'>Our company strives to achieve industry 4.0. With our sheer commitment to innovation we've developed software to automate several of our business operations</h3>
+      <h3 className='digit-para'>Our company strives to achieve industry 4.0. With our sheer commitment to innovation we've developed software to automate several of our business operations</h3>
       <div className='service-list'>
-        <div className='service-card2' style={{ borderRadius: '250px', borderColor: '#39b435', borderWidth: '1px', borderStyle: 'solid', padding: '20px', maxWidth: '400px', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent:'center'}}>
+        <div className='digit-card' style={{ borderRadius: '250px', borderColor: '#39b435', borderWidth: '1px', borderStyle: 'solid', padding: '20px', maxWidth: '400px', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent:'center', marginTop:'0px'}}>
           <GoChecklist color='#39b435' size={'100px'} />
           <h3 style={{ color: '#39b435', backgroundColor:'white', fontSize:'20px' }}>QC App</h3>
           <div className='card-text2' style={{backgroundColor:'#39b435'}}>
@@ -20,7 +20,7 @@ function Digitization() {
           </div>
         </div>
 
-        <div className='service-card2' style={{ marginTop:'80px',borderRadius: '250px', borderColor:'white', borderWidth: '1px', borderStyle: 'solid', padding: '20px', maxWidth: '400px', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent:'center'}}>
+        <div className='digit-card' style={{ marginTop:'10px',borderRadius: '250px', borderColor:'white', borderWidth: '1px', borderStyle: 'solid', padding: '20px', maxWidth: '400px', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent:'center', paddingRight:'50px'}}>
            <FaComputer color='#FFA500' size={'100px'}/>
             <h3 style={{color:'#FFA500', backgroundColor:'white', fontSize:'20px' }}>SIP</h3>
             <div className='card-text2' style={{backgroundColor:'#FFA500'}}>
@@ -28,7 +28,7 @@ function Digitization() {
             </div>
         </div>
 
-        <div className='service-card2' style={{ borderRadius: '250px', borderColor: '#3498DB', borderWidth: '1px', borderStyle: 'solid', padding: '20px', maxWidth: '400px', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent:'center'}}>
+        <div className='digit-card' style={{ borderRadius: '250px', borderColor: '#3498DB', borderWidth: '1px', borderStyle: 'solid', padding: '20px', maxWidth: '400px', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent:'center'}}>
           <FaMicrochip color='#3498DB' size={'100px'}/>
           <h3 style={{color:'#3498DB', backgroundColor:'white', fontSize:'20px'}}>RFID Reader</h3>
           <div className='card-text2' style={{backgroundColor:'#3498DB'}}>

@@ -31,20 +31,21 @@ function Service() {
                 </div>
             </div>
         </div>
-        <div className='service-list-row2' style={{marginTop:'30px', padding:'0px', margin:'10px'}}>
+        <div className='service-list-row2' style={{ marginTop: '30px', padding: '0' }}>
             <div className='service-card'>
-                <img src={img3}/>
+                <img src={img3} />
                 <div className='card-text'>
                     <h3>Sub Assy & Second Process</h3>
                 </div>
             </div>
-            <div className='service-card' style={{marginLeft:'0px'}}>
+            <div className='service-card'>
                 <img src={img4} />
                 <div className='card-text'>
                     <h3>Quality Control</h3>
                 </div>
             </div>
         </div>
+
       
         <div className='service-para'>
             <p>Our services are tailored to meet the unique needs of each client, ensuring that we deliver effective solutions that help businesses grow.</p>

@@ -89,6 +89,9 @@
 }
 
 @media (max-width: 600px) {
+    .timeline-container{
+        margin-right: 40px;
+    }
     .about-div {
         flex-direction: column; /* Override flex-direction for small screens */
         padding-top: 10px; /* Reset padding-top */
@@ -129,4 +132,3 @@
 
    
 }
-

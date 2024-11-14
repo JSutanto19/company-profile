@@ -58,23 +58,47 @@
     box-shadow: 0 16px 32px rgba(0, 0, 0, 0.8); /* Enhanced shadow effect */
 }
 
-.service-row2 {
+.service-list-row2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px; /* Adjust as needed for spacing */
+    padding: 0;
+    margin: 0 auto; /* Center align the entire row */
+    max-width: 100%; /* Ensure it doesn't exceed the viewport */
+}
+
+.service-row2, .service-card {
+    margin-top: 40px;
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 350px; /* Define a fixed width for the card */
-    height: 400px; /* Define a fixed height for the card */
-    margin: 5px; /* Margin for spacing between cards */
-    overflow: hidden; /* Ensure content doesn't overflow the card */
-    border-radius: 10px; /* Optional, for rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional, for a slight shadow */
-    margin-left: 35%; /* Converted from React inline style */
+    width: 350px; /* Fixed width for each card */
+    height: 400px; /* Fixed height for each card */
+    margin: 10px; /* Remove all margins to avoid spacing issues */
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 @media (max-width: 600px) {
+    .service-card{
+        width: 300px;
+    }
+
     .service-row2 {
-        margin-left: 10px; /* Override margin-left for small screens */
+        margin-left: 0; /* Remove left margin */
+        padding: 0;
+        gap: 10px; /* Define small gap for mobile */
+    }
+    .service-list-row2 {
+        padding: 0;
+        gap: 5px; /* Adjust spacing for small screens */
+    }
+    .service-card{
+        margin-top: 60px;
     }
 
     .h1-style{
@@ -83,12 +107,24 @@
 
     .service-para {
         margin-left: 2px;
-    }    
+    }
+    
+    .clients-para {
+        display: block;
+    }
 
 }
 
-.clients-para{
+.clients-para {
     display: none;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 30px;
+    padding: 20px; /* Increased padding for better spacing */
+    width: 80%; /* Adjusted width for responsiveness */
+    max-width: 1200px; /* Ensure a maximum width */
+    text-align: center; /* Center the paragraph text */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional, for a slight shadow */
 }
 
 .service-card img {
@@ -132,4 +168,3 @@
     text-align: center; /* Center the paragraph text */
     border: 1px solid black; /* Set border width, style, and color */
 }
-
